@@ -45,23 +45,6 @@ ventana.resizable(False, False)
 
 encabezado = tk.Frame(ventana, bg=COLOR_FONDO)
 encabezado.pack(fill="x", pady=(20, 0))
-
-titulo = tk.Label(
-	encabezado,
-	text="Día del Estudiante",
-	font=("Arial", 24, "bold"),
-	bg=COLOR_FONDO,
-	fg=COLOR_AZUL,
-)
-titulo.pack()
-
-subtitulo = tk.Label(
-	encabezado,
-	text="Una celebración para quienes aprenden, crean y se atreven",
-	font=("Arial", 10, "italic"),
-	bg=COLOR_FONDO,
-	fg="#8a5a44",
-)
 subtitulo.pack(pady=(4, 0))
 
 canvas = tk.Canvas(ventana, width=500, height=115, bg=COLOR_FONDO, highlightthickness=0)
